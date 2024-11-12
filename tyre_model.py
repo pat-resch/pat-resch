@@ -21,14 +21,14 @@ def magic_formula(k,D,C,E=0):
     return D*np.sin(C*np.arctan(B*phi))
 
 #Define spicy.constants - calculate vertical load
-from spicy.constants import g
+from scipy.constants import g
 vehicle_mass=1500
 Fz=vehicle_mass*g/4
 
 #Parameter Definition
 D=1.0
 C=1.3
-B=10.0
+B=vehicle_mass*g/4*0.02
 
 #Longitudinal Slip
 k=np.linspace(0, 1, 100)
