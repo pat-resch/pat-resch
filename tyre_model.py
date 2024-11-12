@@ -20,6 +20,11 @@ def magic_formula(k,D,C,E=0):
     phi=(1-E)*k+(E/B)*np.arctan(B*k)
     return D*np.sin(C*np.arctan(B*phi))
 
+#Define spicy.constants - calculate vertical load
+from spicy.constants import g
+vehicle_mass=1500
+Fz=vehicle_mass*g/4
+
 #Parameter Definition
 D=1.0
 C=1.3
