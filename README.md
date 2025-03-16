@@ -1,11 +1,15 @@
-## Hi there 👋
+# Tyre Force Simulation using the Magic Formula
 
-<!--
-**pat-resch/pat-resch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Description
+This project simulates **tyre forces** using the **Pacejka Magic Formula**. The simulation computes **longitudinal force (Fx) and lateral force (Fy)** based on given slip values, vehicle mass, and friction coefficient. The results are visualized as plots.
 
-Here are some ideas to get you started:
-Patrick Michael Resch
-Student ID 2410710037
-Sample call statements:
-Python p27761.py slip=2, mass=1500, mu=0.2
+# Author Information
+- **Name:** Patrick Resch  
+- **Student ID:** p2410710037  
+
+# Installation & Requirements
+# Install Dependencies**
+Ensure you have **Python 3.x** installed. You also need **NumPy** and **Matplotlib**:
+```bash
+pip install numpy matplotlib
 
